@@ -1,0 +1,141 @@
+REFERENCES
+
+Question 10
+
+Code used from another source:
+
+import turtle
+
+
+def draw_house():
+    """
+    Draws a house using the Turtle graphics module.
+    The house contains a roof, door, square window,
+    circular window  and chimney with coloured regions.
+    There are no parameters.
+    """
+
+    t = turtle.Turtle()
+    t.speed(3)
+    t.pensize(3)
+    
+    # House body
+
+    t.penup()
+    t.goto(-180, -120)
+    t.pendown()
+
+    t.goto(180, -120)
+    t.goto(180, 70)
+    t.goto(-180, 70)
+    t.goto(-180, -120)
+
+    # Roof
+
+    t.penup()
+    t.goto(-200, 70)
+    t.pendown()
+
+    t.goto(-100, 180)
+    t.goto(100, 175)
+    t.goto(210, 70)
+    t.goto(180, 70)
+    t.goto(100, 175)
+    t.goto(20, 70)
+    t.goto(-180, 70)
+
+    # Chimney 
+
+    t.penup()
+    t.goto(130, 125)
+    t.pendown()
+
+    t.goto(130, 205)
+    t.goto(165, 205)
+    t.goto(165, 105)
+    t.goto(130, 125)
+
+    # Door
+
+
+    t.penup()
+    t.goto(-110, -120)
+    t.pendown()
+
+    t.goto(-110, 15)
+    t.goto(-40, 15)
+    t.goto(-40, -120)
+
+    # Door knob
+    t.penup()
+    t.goto(-52, -55)
+    t.pendown()
+    t.dot(5)
+
+    # Square window
+
+    t.penup()
+    t.goto(95, -10)
+    t.pendown()
+
+    t.fillcolor("blue")
+    t.begin_fill()
+
+    t.goto(155, -10)
+    t.goto(155, 50)
+    t.goto(95, 50)
+    t.goto(95, -10)
+
+    t.end_fill()
+
+    # Window cross
+    t.penup()
+    t.goto(125, -10)
+    t.pendown()
+    t.goto(125, 50)
+
+    t.penup()
+    t.goto(95, 20)
+    t.pendown()
+    t.goto(155, 20)
+
+    # Circular window
+
+    t.penup()
+    t.goto(105, 110)
+    t.pendown()
+
+    t.fillcolor("blue")
+    t.begin_fill()
+    t.circle(25)
+    t.end_fill()
+
+    # Ground line
+
+    t.penup()
+    t.goto(-220, -120)
+    t.pendown()
+
+    t.goto(220, -120)
+
+    t.penup()
+
+    turtle.done()
+
+Source of the copied code:
+
+OpenAI ChatGPT (AI engine). The code for Question 10 was obtained with assistance from ChatGPT and was used as part of completing Question 10.
+
+ADDITIONAL REFERENCE
+
+Source:
+
+Python Programming Assignment Document provided by the lecturer.
+
+Purpose:
+
+The assignment document was referred to for better understanding of the questions, instructions, requirements, examples, and expected results. It was used as a reference and guide while completing the assignment.
+
+DECLARATION
+
+The only code in this assignment that I obtained from an external source was the code for Question 10, which was obtained from OpenAI ChatGPT. I referred to the assignment document for better understanding of the questions and their requirements. The other code was written by me, except for any code covered by the exclusions stated in the assignment instructions, such as code completed in class, laboratory work, or code from the textbook.

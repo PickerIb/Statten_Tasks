@@ -1,0 +1,233 @@
+#Family Name:
+#Student Number:
+#Course:IT1 1120
+#Assignment Number 1
+#Year 2026
+
+
+#####################
+# Question 1  Output 
+#####################
+#Testing Question 1
+
+mh2kh(10)
+16.0934
+
+#####################
+# Question 2  Output 
+#####################
+
+#Testing Question 2
+
+pythagorean_pair(6, 8)
+True
+pythagorean_pair(7,3)
+False
+
+#####################
+# Question 3  Output 
+#####################
+
+#Testing Question 3
+
+in_out(0,0,2.5)
+Enter a number for the x coordinate of a query point: 0
+Enter a number for the y coordinate of a query point: 1.2
+True
+in_out(2.5,1,1)
+Enter a number for the x coordinate of a query point: -1
+Enter a number for the y coordinate of a query point: 1.5
+False
+in_out(-2.5,1,2.1)
+Enter a number for the x coordinate of a query point: -1
+Enter a number for the y coordinate of a query point: 1.5
+True
+
+#####################
+# Question 4  Output 
+#####################
+#Testing Question 4
+
+safe(93)
+False
+safe(80)
+True
+safe(9)
+False
+safe(55)
+True
+safe(5)
+True
+
+#####################
+# Question 5  Output 
+#####################
+#Testing Question 5
+
+quote_maker(
+    "Everything should be made as simple as possible but not simpler.",
+    "Albert Einstein",
+    1933
+)
+'In 1933, a person called Albert Einstein said: "Everything should be made as simple as possible but not simpler."'
+quote_maker("I would never die for my beliefs because I might be wrong.", "Bertrand Russell", 1951)
+'In 1951, a person called Bertrand Russell said: "I would never die for my beliefs because I might be wrong."'
+
+#####################
+# Question 6  Output 
+#####################
+
+#Testing Question 6
+
+quote_displayer()
+Give me a quote: The best lack all conviction while the worst are full of passionate intensity.
+Who said that? Bertrand Russell
+What year did she/he say that? 1960
+In 1960, a person called Bertrand Russell said: "The best lack all conviction while the worst are full of passionate intensity."
+
+#####################
+# Question 7  Output 
+#####################
+
+
+#Testing Question 7
+
+rps_winner()
+What choice did player 1 make?
+Type one of the following options: rock, paper, scissors: rock
+What choice did player 2 make?
+Type one of the following options: rock, paper, scissors: paper
+Player 1 wins. That is False
+It is a tie. That is False
+rps_winner()
+What choice did player 1 make?
+Type one of the following options: rock, paper, scissors: paper
+What choice did player 2 make?
+Type one of the following options: rock, paper, scissors: rock
+Player 1 wins. That is True
+It is a tie. That is False
+rps_winner()
+What choice did player 1 make?
+Type one of the following options: rock, paper, scissors: scissors
+What choice did player 2 make?
+Type one of the following options: rock, paper, scissors: paper
+Player 1 wins. That is True
+It is a tie. That is False
+rps_winner()
+What choice did player 1 make?
+Type one of the following options: rock, paper, scissors: paper
+What choice did player 2 make?
+Type one of the following options: rock, paper, scissors: paper
+Player 1 wins. That is False
+It is a tie. That is True
+
+#####################
+# Question 8  Output 
+#####################
+
+#Testing Question 8
+
+fun(7)
+0.25
+fun(18)
+0.3305548236834798
+fun(13)
+0.3010299956639812
+fun(26)
+0.365599499474739
+
+#####################
+# Question 9  Output 
+#####################
+
+#Testing Question 9
+
+ascii_name_plaque("NGABO")
+***************
+*             *
+* __NGABO__ *
+*             *
+***************
+ascii_name_plaque("Emmanuel")
+******************
+*                *
+* __Emmanuel__ *
+*                *
+******************
+ascii_name_plaque("GICANDA Rosalie")
+*************************
+*                       *
+* __GICANDA Rosalie__ *
+*                       *
+*************************
+
+#####################
+# Question 10  Output 
+#####################
+
+#Testing Question 10
+
+draw_house()
+
+
+#####################
+# Question 11  Output 
+#####################
+
+#Testing Question 11
+
+alogical(5)
+3
+alogical(3)
+2
+alogical(7)
+3
+alogical(40)
+6
+
+#####################
+# Question 12  Output 
+#####################
+
+#Testing Question 12
+
+cad_cashier(10.58,11)
+0.4
+cad_cashier(98.87,100)
+1.15
+cad_cashier(10.58,15)
+4.4
+cad_cashier(10.55,15)
+4.45
+cad_cashier(10.54,15)
+4.45 
+cad_cashier(10.50,15)
+4.5
+
+#####################
+# Question 13  Output 
+#####################
+
+#Testing Question 13
+
+min_CAD_coins(10.58,11)
+(0, 0, 1, 1, 1)
+min_CAD_coins(10.58,15)
+(2, 0, 1, 1, 1)
+min_CAD_coins(10.52,15)
+(2, 0, 2, 0, 0)
+min_CAD_coins(3, 20)
+(8, 1, 0, 0, 0)
+
+
+
+
+
+
+
+
+
+
+
+
+
