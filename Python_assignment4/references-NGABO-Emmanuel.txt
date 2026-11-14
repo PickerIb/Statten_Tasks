@@ -1,4 +1,6 @@
-I declare that the Assignment 3 PDF document provided by Lecturer was the only reference used in completing this assignment.
-No other sources were used.
+I declare that the Assignment 4 PDF document,a4_Q4_xxxxxx,a4_GAME_xxxxxx.py program file, and the A4-game-runs.pdf document.
+provided by the Lecturer were the references used in completing this assignment.
 
-NGABO Emmanuel
+No other external sources were used.
+
+Emmanuel ngabo
